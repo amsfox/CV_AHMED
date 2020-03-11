@@ -161,3 +161,33 @@ h1 i
 	flex-grow: 2;
 
 }
+
+/*-- responsive --*/
+@media all and (max-width: 768px)
+{
+	body
+	{
+		width: auto;
+	}
+	 
+}
+
+@media all and (max-width: 415px) and (orientation: portrait)
+{
+	.bloc
+	{
+		width: auto;
+		flex-direction: column-reverse;
+	}
+
+	.reco2
+	{
+		padding-right: 5px;
+	}
+
+	main
+	{
+		padding-left: 5px;
+		padding-right: 5px;
+	}	 
+}
