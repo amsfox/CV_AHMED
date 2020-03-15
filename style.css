@@ -32,8 +32,7 @@ section
 	color: rgb(254,202,8);
 }
 
-
-.develo
+.develo /*-- souligner une partie du texte "Développeur"--*/
 {
 	border-bottom: 2px rgb(254,202,8) solid;
 }
@@ -75,12 +74,12 @@ main article
 	flex: 2.5;
 }
 
-article ul
+article ul /*-- retirer les bullets points --*/
 {
 	list-style: none;
 }
 
-article li::before
+article li::before /*-- inserer un point en dur avec choix de couleur --*/
 {
 	content: "•"; 
 	color: rgb(254,202,8);
@@ -156,7 +155,7 @@ h1 i
 
 }
 
-.apropos
+.apropos /*-- jouer sur l'espace d'occupation --*/
 {
 	flex-grow: 2;
 
@@ -167,7 +166,7 @@ h1 i
 {
 	body
 	{
-		width: auto;
+		width: auto; /*-- ne pas fixer la largeur sur la resolution à 768px --*/
 	}
 	 
 }
@@ -177,7 +176,7 @@ h1 i
 	.bloc
 	{
 		width: auto;
-		flex-direction: column-reverse;
+		flex-direction: column-reverse;/*-- affichage responsive en colonne --*/
 	}
 
 	.reco2
